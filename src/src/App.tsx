@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Send, Bot, User, Sparkles, Brain, Zap } from 'lucide-react';
 
+// Rest of the App.tsx code remains the same...
+
 interface Message {
   id: string;
   role: 'user' | 'assistant';
