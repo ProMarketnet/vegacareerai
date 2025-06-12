@@ -1,0 +1,77 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                    String   @id @default(uuid())
+  email                 String   @unique
+  name                  String?
+  credits_remaining     Int      @default(0)
+  subscription_tier     String   @default("free")
+  daily_free_queries_used Int    @default(0)
+  last_free_query_reset DateTime @default(now())
+  created_at            DateTime @default(now())
+  updated_at            DateTime @updatedAt
+  creditTransactions    CreditTransaction[]
+  queryLogs             QueryLog[]
+}
+
+model CreditTransaction {
+  id              String   @id @default(uuid())
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId          String
+  transaction_type String
+  credits_amount  Int
+  credits_before  Int
+  credits_after   Int
+  description     String?
+  related_query_id String?
+  created_at      DateTime @default(now())
+}
+
+model CreditPackage {
+  id            String   @id @default(uuid())
+  name          String
+  credits_amount Int
+  price_cents   Int
+  is_active     Boolean  @default(true)
+  display_order Int      @default(0)
+  created_at    DateTime @default(now())
+}
+
+model QueryLog {
+  id                String   @id @default(uuid())
+  user              User?    @relation(fields: [userId], references: [id])
+  userId            String?
+  session_id        String?
+  query_type        String
+  query_text        String?
+  credits_used      Int      @default(0)
+  response_generated Boolean @default(false)
+  ip_address        String?
+  user_agent        String?
+  created_at        DateTime @default(now())
+}
+
+model RateLimit {
+  id              String   @id @default(uuid())
+  identifier      String
+  identifier_type String
+  query_count     Int      @default(0)
+  window_start    DateTime @default(now())
+  created_at      DateTime @default(now())
+
+  @@unique([identifier, identifier_type])
+}
