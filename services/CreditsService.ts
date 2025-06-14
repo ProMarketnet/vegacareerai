@@ -14,8 +14,19 @@ export class CreditsService {
   };
 
   async getUserCredits(userId: string): Promise<number> {
-    // Placeholder: fetch user credits from DB
-    return 0;
+    const user = await prisma.user.findUnique({
+      where: { id: userId },
+      select: { credits_remaining: true }
+    });
+    return user?.credits_remaining ?? 0;
+  }
+
+  async getUserTransactions(userId: string) {
+    return prisma.creditTransaction.findMany({
+      where: { userId },
+      orderBy: { created_at: 'desc' },
+      take: 20,
+    });
   }
 
   async deductCredits(userId: string, amount: number, description: string, queryId?: string): Promise<number> {
