@@ -3,8 +3,19 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-// Initialize Stripe
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+// Lazy initialization of Stripe
+let stripe = null;
+
+function getStripe() {
+  if (!stripe) {
+    const apiKey = process.env.STRIPE_SECRET_KEY;
+    if (!apiKey) {
+      throw new Error('STRIPE_SECRET_KEY environment variable is not set');
+    }
+    stripe = new Stripe(apiKey);
+  }
+  return stripe;
+}
 
 // Credit packages configuration
 export const CREDIT_PACKAGES = [
@@ -51,12 +62,13 @@ export const CREDIT_PACKAGES = [
  */
 export async function createPaymentIntent(packageId, userId, userEmail) {
   try {
+    const stripeClient = getStripe();
     const creditPackage = CREDIT_PACKAGES.find(pkg => pkg.id === packageId);
     if (!creditPackage) {
       throw new Error('Invalid credit package');
     }
 
-    const paymentIntent = await stripe.paymentIntents.create({
+    const paymentIntent = await stripeClient.paymentIntents.create({
       amount: Math.round(creditPackage.price * 100), // Convert to cents
       currency: 'usd',
       metadata: {
@@ -91,7 +103,8 @@ export async function createPaymentIntent(packageId, userId, userEmail) {
  */
 export async function verifyPayment(paymentIntentId) {
   try {
-    const paymentIntent = await stripe.paymentIntents.retrieve(paymentIntentId);
+    const stripeClient = getStripe();
+    const paymentIntent = await stripeClient.paymentIntents.retrieve(paymentIntentId);
     
     if (paymentIntent.status === 'succeeded') {
       return {
@@ -126,7 +139,8 @@ export async function verifyPayment(paymentIntentId) {
  */
 export async function handleWebhook(body, signature) {
   try {
-    const event = stripe.webhooks.constructEvent(
+    const stripeClient = getStripe();
+    const event = stripeClient.webhooks.constructEvent(
       body,
       signature,
       process.env.STRIPE_WEBHOOK_SECRET
@@ -141,7 +155,7 @@ export async function handleWebhook(body, signature) {
         console.log('✅ Checkout session completed:', session.id);
         
         // Get line items to determine credits purchased
-        const lineItems = await stripe.checkout.sessions.listLineItems(session.id);
+        const lineItems = await stripeClient.checkout.sessions.listLineItems(session.id);
         const credits = calculateCreditsFromLineItems(lineItems.data);
         
         const checkoutResult = await processCreditsGrant({
