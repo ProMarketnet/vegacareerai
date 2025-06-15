@@ -352,7 +352,7 @@ class QueryService {
 // services/paymentService.js
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
-class PaymentService {
+class PaymentService DATABASE_URL=postgresql://neondb_owner:npg_2RiXCaWN3MVv@ep-lively-king-a847y5c5-pooler.eastus2.azure.neon.tech/neondb?sslmode=require
   async createCheckoutSession(userId, packageId) {
     const package = await prisma.credit_packages.findUnique({
       where: { id: packageId }

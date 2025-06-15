@@ -30,3 +30,15 @@ yarn-error.log*
 *.sln
 *.sw? 
 .vercel
+
+/src/generated/prisma
+
+# .env (for production)
+DATABASE_URL="your_production_db_url"
+STRIPE_SECRET_KEY="your_real_stripe_secret"
+# etc.
+
+# .env.test (for test/staging)
+DATABASE_URL="your_test_db_url"
+STRIPE_SECRET_KEY="your_test_stripe_secret"
+# etc.

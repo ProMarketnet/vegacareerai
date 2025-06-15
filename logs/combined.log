@@ -1,0 +1,201 @@
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:11:00.156Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:11:00.673Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:11:12.893Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:11:20.943Z"}
+{"duration":"11ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T11:11:32.586Z","url":"/api/llm/query","user_agent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T11:11:38.455Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T11:11:38.457Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:11:38.457Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:11:43.320Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:12:09.620Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:12:15.162Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:12:15.351Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:12:21.543Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:12:29.287Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:12:31.134Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:24:18.098Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:24:23.938Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:24:29.765Z"}
+{"duration":"11ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T11:24:53.975Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T11:25:00.793Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"endpoint":"/api/stripe/create-payment-intent","ip":"::1","level":"error","message":"Cannot read properties of undefined (reading 'id')","service":"vega-career-ai","stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at file:///Users/mikaelo/vegacareerai/api/production-server.js:230:52\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-15T11:25:01.212Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"duration":"422ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":500,"timestamp":"2025-06-15T11:25:01.214Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T11:25:08.353Z","url":"/api/llm/query","user_agent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T11:26:05.359Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T11:26:05.360Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:26:05.360Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:36:07.663Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T11:37:20.128Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:37:33.399Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:37:39.771Z"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T11:37:46.186Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"endpoint":"/api/stripe/create-payment-intent","level":"error","message":"Invalid API Key provided: sk_test_***********************************************************************************************h1zV","package_id":"professional","service":"vega-career-ai","stack":"Error: Invalid API Key provided: sk_test_***********************************************************************************************h1zV\n    at file:///Users/mikaelo/vegacareerai/api/production-server.js:246:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-15T11:37:46.382Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"duration":"204ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T11:37:46.382Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T11:38:02.553Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T11:38:28.503Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:38:34.331Z"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T11:38:41.092Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"amount":40,"level":"info","message":"Payment Intent Created","payment_intent_id":"pi_3RaEtfJiv7TuZJOz0AoZew68","service":"vega-career-ai","timestamp":"2025-06-15T11:38:41.491Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:38:41.491Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T11:38:49.151Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T11:38:49.152Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:38:49.152Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:40:48.342Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:40:48.349Z"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T11:40:48.353Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"amount":40,"level":"info","message":"Payment Intent Created","payment_intent_id":"pi_3RaEviJiv7TuZJOz1ylnquR6","service":"vega-career-ai","timestamp":"2025-06-15T11:40:48.817Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:40:48.817Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T11:40:48.819Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T11:40:48.820Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T11:40:48.820Z"}
+{"endpoint":"/api/stripe/webhook","level":"error","message":"Unable to extract timestamp and signatures from header","service":"vega-career-ai","stack":"Error: Unable to extract timestamp and signatures from header\n    at file:///Users/mikaelo/vegacareerai/api/production-server.js:308:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-15T11:54:11.760Z"}
+{"duration":"4ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T11:54:11.761Z","url":"/api/stripe/webhook","user_agent":"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:10:38.764Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:11:22.483Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:11:22.488Z"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T12:11:22.493Z","url":"/api/stripe/create-payment-intent","user_agent":"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"}
+{"endpoint":"/api/stripe/webhook","level":"error","message":"Unable to extract timestamp and signatures from header","service":"vega-career-ai","stack":"Error: Unable to extract timestamp and signatures from header\n    at file:///Users/mikaelo/vegacareerai/api/production-server.js:308:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-15T12:11:22.497Z"}
+{"duration":"2ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T12:11:22.498Z","url":"/api/stripe/webhook","user_agent":"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T12:11:22.500Z"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T12:11:22.500Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:11:22.501Z"}
+{"duration":"2ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T12:11:37.110Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T12:11:46.631Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"amount":40,"level":"info","message":"Payment Intent Created","payment_intent_id":"pi_3RaFPhJiv7TuZJOz1gHLJFrm","service":"vega-career-ai","timestamp":"2025-06-15T12:11:47.004Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:11:47.004Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:12:28.944Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:12:28.955Z"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T12:12:28.959Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"amount":40,"level":"info","message":"Payment Intent Created","payment_intent_id":"pi_3RaFQNJiv7TuZJOz0cmf0ep8","service":"vega-career-ai","timestamp":"2025-06-15T12:12:29.219Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:12:29.219Z"}
+{"endpoint":"/api/stripe/webhook","level":"error","message":"Unable to extract timestamp and signatures from header","service":"vega-career-ai","stack":"Error: Unable to extract timestamp and signatures from header\n    at file:///Users/mikaelo/vegacareerai/api/production-server.js:308:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-15T12:12:29.222Z"}
+{"duration":"2ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T12:12:29.223Z","url":"/api/stripe/webhook","user_agent":"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T12:12:29.224Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T12:12:29.224Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:12:29.224Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T12:19:55.600Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:19:58.349Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:20:01.798Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:20:07.926Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:20:07.932Z"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T12:20:07.941Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"amount":40,"level":"info","message":"Payment Intent Created","payment_intent_id":"pi_3RaFXmJiv7TuZJOz1eji8DMi","service":"vega-career-ai","timestamp":"2025-06-15T12:20:08.357Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:20:08.357Z"}
+{"endpoint":"/api/stripe/webhook","level":"error","message":"Unable to extract timestamp and signatures from header","service":"vega-career-ai","stack":"Error: Unable to extract timestamp and signatures from header\n    at file:///Users/mikaelo/vegacareerai/api/production-server.js:308:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-15T12:20:08.364Z"}
+{"duration":"4ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T12:20:08.365Z","url":"/api/stripe/webhook","user_agent":"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T12:20:08.368Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T12:20:08.369Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:20:08.369Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T12:33:30.230Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:33:35.715Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:33:41.348Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T12:33:59.072Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T13:12:57.718Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:13:04.148Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:14:26.593Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T13:21:50.508Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T13:22:48.821Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:22:55.352Z"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:22:55.359Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:22:55.360Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T13:29:51.579Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T13:30:59.012Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:31:04.318Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:31:10.971Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:31:10.982Z"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:31:10.983Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:31:10.983Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:31:17.374Z"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:31:17.374Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:31:17.374Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T13:40:33.994Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T13:42:32.641Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:42:39.589Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:43:25.697Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T13:49:12.372Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T13:51:01.737Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:51:07.287Z"}
+{"duration":"10ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T13:51:19.662Z","url":"/api/llm/query","user_agent":"curl/8.7.1"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T13:51:25.201Z","url":"/api/llm/query","user_agent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:51:31.721Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:51:31.721Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:51:31.722Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:51:38.587Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:51:38.587Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:51:38.587Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T13:51:45.116Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T13:51:52.689Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:52:02.711Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"ycaJxsx2rth8SwaS5hegS0Mzldjt9xEuPmFendKkqcSyzXoDPERPLEXITY_API_KEY is not defined","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:52:02.712Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:52:02.712Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T13:54:36.022Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T13:54:43.013Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T13:54:51.775Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"level":"info","message":"LLM Query Success","model":"claude-3-haiku-20240307","response_time":1119,"service":"vega-career-ai","timestamp":"2025-06-15T13:54:52.896Z","tokens_used":50,"user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:54:52.896Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"llama-3.1-sonar-small-128k-online","service":"vega-career-ai","timestamp":"2025-06-15T13:54:59.880Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"level":"info","message":"LLM Query Success","model":"llama-3.1-sonar-small-128k-online","response_time":2353,"service":"vega-career-ai","timestamp":"2025-06-15T13:55:02.234Z","tokens_used":186,"user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T13:55:02.234Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T14:12:53.295Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T14:13:00.757Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"level":"info","message":"LLM Query Success","model":"claude-3-haiku-20240307","response_time":1057,"service":"vega-career-ai","timestamp":"2025-06-15T14:13:01.814Z","tokens_used":20,"user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:13:01.814Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"llama-3.1-sonar-small-128k-online","service":"vega-career-ai","timestamp":"2025-06-15T14:13:09.031Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"level":"info","message":"LLM Query Success","model":"llama-3.1-sonar-small-128k-online","response_time":2145,"service":"vega-career-ai","timestamp":"2025-06-15T14:13:11.176Z","tokens_used":237,"user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:13:11.177Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:13:17.726Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:13:38.859Z"}
+{"duration":"2ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T14:15:19.570Z","url":"/api/llm/query","user_agent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"gpt-4o-mini","service":"vega-career-ai","timestamp":"2025-06-15T14:15:26.479Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"Model gpt-4o-mini not found","level":"warn","message":"LLM API failed, using mock response","model":"gpt-4o-mini","service":"vega-career-ai","timestamp":"2025-06-15T14:15:26.480Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:15:26.480Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:15:32.242Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T14:15:40.361Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"level":"info","message":"LLM Query Success","model":"claude-3-haiku-20240307","response_time":953,"service":"vega-career-ai","timestamp":"2025-06-15T14:15:41.314Z","tokens_used":43,"user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:15:41.315Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"llama-3.1-sonar-small-128k-online","service":"vega-career-ai","timestamp":"2025-06-15T14:15:46.609Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"level":"info","message":"LLM Query Success","model":"llama-3.1-sonar-small-128k-online","response_time":1649,"service":"vega-career-ai","timestamp":"2025-06-15T14:15:48.258Z","tokens_used":246,"user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:15:48.259Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:16:31.383Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:22:04.025Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:22:11.342Z"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T14:22:17.083Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"amount":40,"level":"info","message":"Payment Intent Created","payment_intent_id":"pi_3RaHS0Jiv7TuZJOz10imP1aI","service":"vega-career-ai","timestamp":"2025-06-15T14:22:17.473Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:22:17.474Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:23:19.912Z"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T14:23:19.923Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T14:23:19.931Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T14:23:19.942Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"duration":"0ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T14:23:19.950Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":429,"timestamp":"2025-06-15T14:23:19.959Z","url":"/create-payment-intent","user_agent":"curl/8.7.1"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":429,"timestamp":"2025-06-15T14:23:25.466Z","url":"/create-payment-intent","user_agent":"curl/8.7.1"}
+{"duration":"0ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":429,"timestamp":"2025-06-15T14:23:31.954Z","url":"/create-payment-intent","user_agent":"curl/8.7.1"}
+{"duration":"0ms","ip":"::1","level":"warn","message":"HTTP Error","method":"GET","service":"vega-career-ai","status":429,"timestamp":"2025-06-15T14:23:40.913Z","url":"/packages","user_agent":"curl/8.7.1"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"GET","service":"vega-career-ai","status":429,"timestamp":"2025-06-15T14:23:40.929Z","url":"/packages","user_agent":"curl/8.7.1"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:23:45.191Z"}
+{"duration":"0ms","ip":"::1","level":"warn","message":"HTTP Error","method":"GET","service":"vega-career-ai","status":429,"timestamp":"2025-06-15T14:23:49.567Z","url":"/packages","user_agent":"curl/8.7.1"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:31:30.928Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T14:32:36.497Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T14:32:42.155Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T14:32:49.104Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"level":"info","message":"LLM Query Success","model":"claude-3-haiku-20240307","response_time":929,"service":"vega-career-ai","timestamp":"2025-06-15T14:32:50.034Z","tokens_used":35,"user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:32:50.035Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"llama-3.1-sonar-small-128k-online","service":"vega-career-ai","timestamp":"2025-06-15T14:32:55.269Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"level":"info","message":"LLM Query Success","model":"llama-3.1-sonar-small-128k-online","response_time":1395,"service":"vega-career-ai","timestamp":"2025-06-15T14:32:56.664Z","tokens_used":156,"user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:32:56.665Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T14:51:12.743Z"}
+{"level":"info","message":"LLM Query Success","model":"claude-3-haiku-20240307","response_time":605,"service":"vega-career-ai","timestamp":"2025-06-15T14:51:13.349Z","tokens_used":20}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:51:13.350Z"}
+{"duration":"1ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T14:51:21.610Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T14:51:27.397Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"amount":40,"level":"info","message":"Payment Intent Created","payment_intent_id":"pi_3RaHuEJiv7TuZJOz0xnRpVsp","service":"vega-career-ai","timestamp":"2025-06-15T14:51:27.841Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T14:51:27.842Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T15:24:37.348Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T15:35:45.681Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T15:36:00.305Z"}
+{"environment":"development","level":"info","message":"Server Started","port":"3001","service":"vega-career-ai","timestamp":"2025-06-15T15:43:31.351Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T15:43:38.419Z"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T15:43:46.840Z"}
+{"level":"info","message":"LLM Query Success","model":"claude-3-haiku-20240307","response_time":1519,"service":"vega-career-ai","timestamp":"2025-06-15T15:43:48.360Z","tokens_used":20}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T15:43:48.360Z"}
+{"duration":"3ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T15:43:48.376Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}

@@ -1,0 +1,4 @@
+   DATABASE_URL="your_database_url_here"
+   STRIPE_SECRET_KEY="your_stripe_secret_here"
+   STRIPE_PUBLISHABLE_KEY="your_stripe_publishable_here"
+   # Add any other required variables here
