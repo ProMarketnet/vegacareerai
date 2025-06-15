@@ -199,3 +199,22 @@
 {"level":"info","message":"LLM Query Success","model":"claude-3-haiku-20240307","response_time":1519,"service":"vega-career-ai","timestamp":"2025-06-15T15:43:48.360Z","tokens_used":20}
 {"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T15:43:48.360Z"}
 {"duration":"3ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T15:43:48.376Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"environment":"production","level":"info","message":"Server Started","port":3001,"service":"vega-career-ai","timestamp":"2025-06-15T17:25:34.154Z"}
+{"environment":"production","level":"info","message":"Server Started","port":3001,"service":"vega-career-ai","timestamp":"2025-06-15T17:43:57.364Z"}
+{"environment":"production","level":"info","message":"Server Started","port":3001,"service":"vega-career-ai","timestamp":"2025-06-15T17:54:46.222Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T17:54:53.409Z"}
+{"duration":"6ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T17:55:14.399Z","url":"/api/llm/query","user_agent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"LLM Query Request","message_count":1,"model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T17:55:20.851Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"error":"Claude API error: 401 - {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"}}","level":"warn","message":"LLM API failed, using mock response","model":"claude-3-haiku-20240307","service":"vega-career-ai","timestamp":"2025-06-15T17:55:21.115Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T17:55:21.115Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T17:55:27.068Z"}
+{"ip":"::1","level":"info","message":"Payment Intent Request","package_id":"professional","service":"vega-career-ai","timestamp":"2025-06-15T17:55:33.682Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"endpoint":"/api/stripe/create-payment-intent","level":"error","message":"Invalid API Key provided: sk_test_***********************************************************************************************UIZe","package_id":"professional","service":"vega-career-ai","stack":"Error: Invalid API Key provided: sk_test_***********************************************************************************************UIZe\n    at file:///Users/mikaelo/vegacareerai/api/production-server.js:249:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-15T17:55:33.855Z","user_id":"550e8400-e29b-41d4-a716-446655440000"}
+{"duration":"174ms","ip":"::1","level":"warn","message":"HTTP Error","method":"POST","service":"vega-career-ai","status":400,"timestamp":"2025-06-15T17:55:33.856Z","url":"/api/stripe/create-payment-intent","user_agent":"curl/8.7.1"}
+{"environment":"production","level":"info","message":"Server Started","port":3001,"service":"vega-career-ai","timestamp":"2025-06-15T18:21:10.735Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T18:21:17.992Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T18:21:22.073Z"}
+{"environment":"production","level":"info","message":"Server Started","port":3001,"service":"vega-career-ai","timestamp":"2025-06-15T18:27:40.501Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"vega-career-ai","timestamp":"2025-06-15T19:12:47.087Z"}
+{"environment":"production","level":"info","message":"Server Started","port":3001,"service":"vega-career-ai","timestamp":"2025-06-15T19:13:02.746Z"}
+{"data_type":"object","level":"info","message":"Success","service":"vega-career-ai","status":200,"timestamp":"2025-06-15T19:13:09.970Z"}
